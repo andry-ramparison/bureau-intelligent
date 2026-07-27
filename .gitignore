@@ -1,0 +1,29 @@
+# Build Maven
+target/
+*.jar
+*.war
+*.class
+
+# Base de données locale (générée à l'exécution)
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arduino / PlatformIO (si utilisé plus tard)
+.pio/
