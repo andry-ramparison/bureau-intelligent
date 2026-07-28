@@ -13,10 +13,8 @@
   <img src="https://img.shields.io/badge/Communication-Série%20USB-3E8E41?style=for-the-badge" alt="Série USB" />
 </p>
 ---
-
 ## Description
 Le Bureau Intelligent est un espace de travail destiné aux étudiants et aux employés afin d'améliorer leur organisation, leur posture et leur concentration. Il associe un dispositif matériel basé sur Arduino Uno à une application de bureau développée en Java, reliés par une communication série USB. Les données collectées par les capteurs sont transmises à l'application, exploitées en temps réel, puis enregistrées dans une base de données SQLite pour constituer un historique des sessions de travail.
-
 ## Problème Résolu
 Les étudiants comme les employés perdent souvent en concentration et en confort au cours de longues sessions de travail, faute d'organisation claire et d'attention portée à leur posture. Le Bureau Intelligent répond à ce constat en combinant capteurs physiques et logiciel de gestion pour :
 - structurer la journée de travail à l'aide d'un calendrier et d'une liste de tâches ;
@@ -25,7 +23,6 @@ Les étudiants comme les employés perdent souvent en concentration et en confor
 - détecter l'absence de l'utilisateur pendant une session de travail ;
 - imposer un rythme sain de travail et de pause, par exemple cinquante minutes de travail suivies de dix minutes de pause ;
 - conserver une trace exploitable de l'activité, consultable sous forme d'historique.
-
 ## Architecture Matérielle
 | Composant | Rôle |
 |---|---|
@@ -37,7 +34,6 @@ Les étudiants comme les employés perdent souvent en concentration et en confor
 | Buzzer | Alerte sonore en cas de mauvaise posture, de fin de session ou de pause |
 | LEDs | Indicateurs visuels d'état |
 Les capteurs sont reliés à l'Arduino Uno, qui traite les signaux et les transmet à l'application Java via une communication série USB.
-
 ## Interface
 L'application de bureau, développée en Java avec JavaFX ou Swing, constitue le point central d'interaction avec l'utilisateur. Elle permet de :
 - planifier les tâches de la journée à l'aide d'un calendrier intégré ;
@@ -48,7 +44,6 @@ L'application de bureau, développée en Java avec JavaFX ou Swing, constitue le
 - afficher les alertes liées à une absence détectée pendant une session ;
 - proposer automatiquement une pause à l'issue d'une durée de travail définie ;
 - consulter l'historique des sessions de travail enregistrées dans la base de données SQLite.
-
 ---
 <p align="center">
   Conçu pour travailler mieux, assis droit, et sans perdre le fil.
