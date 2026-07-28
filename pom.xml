@@ -17,8 +17,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>25</maven.compiler.source>
+    <maven.compiler.target>25</maven.compiler.target>
     <javafx.version>21.0.2</javafx.version>
     <junit.version>5.10.2</junit.version>
     <sqlite.version>3.45.3.0</sqlite.version>
@@ -68,7 +68,9 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.13.0</version>
         <configuration>
-          <release>17</release>
+          <fork>true</fork>
+          <executable>/home/parson/.jdks/jdk-25.0.2/bin/javac</executable>
+          <release>25</release>
         </configuration>
       </plugin>
 

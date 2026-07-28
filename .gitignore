@@ -27,3 +27,6 @@ Thumbs.db
 
 # Arduino / PlatformIO (si utilisé plus tard)
 .pio/
+
+# Dossier de migration/modernisation
+.github/
