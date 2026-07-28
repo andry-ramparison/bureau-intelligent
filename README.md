@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=FFFFFF" alt="SQLite" />
   <img src="https://img.shields.io/badge/Communication-Série%20USB-3E8E41?style=for-the-badge" alt="Série USB" />
 </p>
----
 
 ## Description
 Le Bureau Intelligent est un espace de travail destiné aux étudiants et aux employés afin d'améliorer leur organisation, leur posture et leur concentration. Il associe un dispositif matériel basé sur Arduino Uno à une application de bureau développée en Java, reliés par une communication série USB. Les données collectées par les capteurs sont transmises à l'application, exploitées en temps réel, puis enregistrées dans une base de données SQLite pour constituer un historique des sessions de travail.
