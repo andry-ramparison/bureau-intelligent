@@ -37,6 +37,7 @@ Les étudiants comme les employés perdent souvent en concentration et en confor
 | Écran LCD I2C | Affichage local d'informations telles que le statut ou le minuteur |
 | Buzzer | Alerte sonore en cas de mauvaise posture, de fin de session ou de pause |
 | LEDs | Indicateurs visuels d'état |
+
 Les capteurs sont reliés à l'Arduino Uno, qui traite les signaux et les transmet à l'application Java via une communication série USB.
 
 ## Interface
